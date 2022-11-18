@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex Activity</title>
+    <link rel="stylesheet" href="./flexactivity.css">
+</head>
+<body>
+    <header>
+        Header
+    </header>
+    <main>
+        
+        <Article>        
+            <form>
+                <div class="container">
+                    <div class="flex-item left">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" id="firstName">
+                            
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone</label>
+                            <input type="text" id="lastname">
+                            
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" id="email">
+                    
+                        </div>
+                        <div class="field">
+                            <label for="pickupd">Pickup Date/Time</label>
+                            <input type="datetime-local" id="pickupd">
+                    
+                        </div>
+
+                        <div class="field">
+                            <label for="dropdown">Pickup Place</label>
+                            <select name="dropdown" id="dropdown">
+                                <option>Select one</option>
+                                <option value="home">Home</option>
+                                <option value="work">Work</option>
+                                <option value="farm">Farm</option>
+                                <option value="school">School</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label for="dropoff">Dropoff Place</label>
+                            <input type="text" id="dropoff">
+                    
+                        </div>
+                    </div>
+                    <div class="flex-item right">
+                        Which vehicle do you require?: <br />
+                        
+                        <input type="radio" name="vehicle" id="html">
+                        <label for="vehicle">Van</label>
+                        <br />
+
+                        <input type="radio" name="vehicle" id="css">
+                        <label for="vehicle">Jeepney</label>
+                        <br />
+
+                        <input type="radio" name="vehicle" id="js">
+                        <label for="vehicle">Tricycle</label>
+                        <br /><br><br>
+
+                        Extras
+                        <br>
+                        <input type="checkbox" name="vehicle" id="babyseat">
+                        <label for="vehicle">Baby Seat</label>
+                        <br />
+
+                        <input type="checkbox" name="extras" id="wchair">
+                        <label for="extras">Wheelchair Access</label>
+                        <br />
+
+                        <input type="checkbox" name="extras" id="stock">
+                        <label for="extras">Stock Tip</label>
+                    </div>
+        
+                </div>
+                
+                <div class="btn-container">
+                    <input type="submit" value="Submit Booking">
+                </div>
+
+            </form>
+        </Article>
+        
+    
+        <aside>Aside</aside>
+        <nav>Nav</nav>
+        
+
+        
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>

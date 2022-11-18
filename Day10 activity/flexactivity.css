@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+header,
+footer {
+    height: 20vh;
+    background-color: aquamarine;
+    padding: 15px;
+}
+main {
+    height: 60vh;
+    display: flex;
+}
+article {
+    margin: 20px;
+    margin-bottom: 100px;
+    width: 60%;
+    padding: 15px;
+    background-color: rgb(220, 211, 200);
+        
+    
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    column-gap: 30px;
+}
+.flex-item.left {
+    width: 70%;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 5px;
+}
+.field label {
+    flex: 1;
+}
+.field input {
+    flex: 2;
+    padding: 5px;
+}
+.flex-item.right {
+    width: 30%;
+}
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="submit"] {
+    border: 0;
+    padding: 10px;
+    background-color: rgb(183, 173, 173);
+    
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+}
+aside {
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(244, 227, 211);
+}
+nav {
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(213, 211, 241);
+}
+select {
+    flex: 2;   
+}
