@@ -8,29 +8,48 @@
     <link rel="stylesheet" href="./Grid Based Layout.css">
 </head>
 <body>
-    <div  class="grid">
-        <header>
-            <strong>Our Contacts</strong>
-            
-        </header>
-
-        
-    </div>
-    <div>
-        <form class="grid-form">
-            <label for="Sendus">Send Us a Message</label>
-            <label for="yourname">Your Name</label>
-            <input type="text" id="name">
-            <label for="skype">Skype</label>
-            <input type="text" id="skyoe">
-            <label for="email">Email Address</label>
-            <input type="text" id="email">
-            <label for="topic">Topic</label>
-            <input type="text" id="topic">
-            <input type="submit" value="Submit">
-
-        </form>
-    </div>
+    <div class="contain">
+  
+      <div class="wrapper">
+        <div class="contacts">
+          <h3>Our contacts</h3>
     
-</body>
-</html>
+          <ul>
+            <li>Bacnotan, La Union</li>
+            <li>09177067285</li>
+            <li>pparado@gmail.com</li>
+          </ul>
+        </div>
+    
+        <div class="form">
+          <h3>Send us a message</h3>
+          <form action="">
+            <p>
+              <label for="">Your name</label>
+              <input type="text">
+            </p>
+            <p>
+              <label for="">Skype</label>
+              <input type="text">
+            </p>
+            <p>
+              <label for="">Email Address</label>
+              <input type="text">
+            </p>
+            <p>
+              <label for="">Topic</label>
+              <input type="text">
+            </p>
+            <p class="full-width">
+              <label for="">Write your message</label>
+              <textarea name="" id="" cols="30" rows="7"></textarea>
+            </p>
+            <p class="full-width">
+              <button>Send</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
